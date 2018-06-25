@@ -1,0 +1,30 @@
+{
+  "name": "@dealerslink/lodash-extended",
+  "version": "1.0.0",
+  "description": "Extended Lodash",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "build": "gulp",
+    "fix": "gulp fix",
+    "lint": "gulp lint",
+    "coverage": "nyc --reporter=lcov mocha && cat ./coverage/lcov.info | codacy-coverage",
+    "pretty": "gulp pretty"
+  },
+  "author": "Jay Reardon",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "codacy-coverage": "^2.1.1",
+    "eslint": "^4.19.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-mocha": "^5.0.0",
+    "gulp-prettier": "^1.1.0",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
+    "prettier": "^1.12.1"
+  }
+}
