@@ -1,4 +1,4 @@
-// lodashExt.js
+// lodash-extended.js
 
 // Dependancies
 const __ = require('lodash');
